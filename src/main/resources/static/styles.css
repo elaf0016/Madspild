@@ -1,0 +1,162 @@
+body {
+    font-family: "Be Vietnam Pro";
+    margin: 0;
+    width: 100%;
+    background-color: white;
+    font-weight: 300;
+}
+
+h1, h2 {
+    margin: 0;
+}
+
+/*  header/navigation bar   */
+.nav {
+    padding-top: 4px;
+    padding-bottom: 4px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+/*  logo icon and logo text */
+.full-logo {
+    display: flex;
+}
+.full-logo img {
+    width: 47px;
+    height: 47px;
+}
+.logo-text {
+    font-size: 13px;
+    max-width: 88px;
+    text-transform: uppercase;
+    color: #89BF3F;
+    margin-left: 3px;
+    margin-right: 24px;
+    align-content: center;
+}
+/*---------------------------*/
+/*  navigation buttons      */
+.nav-buttons {
+    width: 530px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 27px;
+    margin-left: 27px;
+}
+.nav-buttons a, .nav-reg-buttons a{
+    text-decoration: none;
+    color: black;
+    padding: 6px;
+    font-size: 13px;
+}
+.nav-buttons a:hover,
+.nav-buttons a:focus,
+.nav-buttons a:active {
+    background-color: #F5F5F5;
+    border-radius: 8px;
+    color: #656565;
+}
+.nav-reg-buttons {
+    display: flex;
+    align-items: center;
+    min-width: 220px;
+    justify-content: space-around;
+}
+.nav-reg-buttons a {
+    padding: 8px 16px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #89BF3F;
+    border-radius: 8px;
+}
+#register {
+    background-color: #638C2B;
+    border: none;
+    color: white;
+}
+
+/*--------header finish-------*/
+
+/*  main photo and text on photo*/
+.main-content {
+    height: 368px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+}
+.main-content img {
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+.image-text {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    left: calc(50% - 480px);
+}
+.main-heading {
+    color: black;
+    font-size: 64px;
+    font-weight: 500;
+}
+.secondary-heading {
+    width: fit-content;
+}
+.under-heading {
+    display: flex;
+    gap: 5px;
+}
+.under-heading h2{
+    font-size: 1em;
+    font-weight: 400;
+}
+.highlighted-h2 {
+    min-width: 57px;
+    max-height: fit-content;
+    background-color: #a2ba96;
+    text-align: center;
+}
+/*  main photo and text finish  */
+/*  cards */
+/* cards container  */
+.cards {
+    margin-top: 64px;
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+
+}
+/*  individual card settings */
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: fit-content;
+    padding: 24px;
+    gap: 24px;
+    border: solid 2px #D9D9D9;
+    border-radius: 8px;
+
+}
+.card img {
+    width: 100%;
+    height: 160px;
+}
+.card-text p {
+    margin-top: 8px;
+    color: #757575;
+}
+.card-text h2{
+    font-weight: 500;
+}
+/*  cards finish    */
+
+
